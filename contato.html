@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Ana Freitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Ana<span>.Dev</span></a>
+            <div class="links">
+                <a href="index.html">Início</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page contact-page">
+        <p class="tag">ENTRE EM CONTATO</p>
+        <h1>Vamos conversar<span>!</span></h1>
+        <p class="intro">
+            Tem alguma ideia ou quer conhecer meus projetos?
+            Envie uma mensagem!
+        </p>
+
+        <form class="contact-form" action="https://formsubmit.co/" method="POST">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome"
+                   placeholder="Digite seu nome" required>
+
+            <label for="email">Seu e-mail</label>
+            <input type="email" id="email" name="email"
+                   placeholder="seuemail@exemplo.com" required>
+
+            <label for="mensagem">Sua mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5"
+                      placeholder="Escreva sua mensagem..." required></textarea>
+
+            <button type="submit" class="btn">Enviar mensagem ✉️</button>
+        </form>
+
+        <p class="contact-note">
+            Você também pode adicionar aqui os links dos seus perfis profissionais.
+        </p>
+        <a class="social-link" href="https://github.com/" target="_blank"
+           rel="noopener noreferrer">Meu GitHub ↗</a>
+    </main>
+
+    <footer>
+        <p>© 2026 Ana Freitas | Feito com 💜 e muito aprendizado.</p>
+    </footer>
+</body>
+</html>
